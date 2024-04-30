@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML & CSS</title>
+</head>
+<style>
+    main{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f5f5;
+    }
+    .wrapper{
+        width: 800px;
+        margin: 60px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .input-wrapper{
+        padding: 10px;
+        margin-top: 4px;
+        width: calc(100% - 20px);
+        margin-bottom: 8px;
+
+    }
+</style>
+<body>
+    <main>
+    <div class="wrapper">
+    <h1>Advanced HTML & CSS</h1>
+    <form>
+        <label for="name">Name :</label>
+        <input class="input-wrapper" type="text" required>
+
+        <label for="Age">Age :</label>
+        <input class="input-wrapper"  type="number" min="16">
+        
+        <label for="email">Email</label>
+        <input class="input-wrapper"  type="email">
+
+        <label for="DOB">DOB</label>
+        <input class="input-wrapper" type="date" required>
+        <br>
+        <button  class="input-wrapper" type="submit">KLIK</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>email</th>
+                <th>DOB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alvins</td>
+                <td>21</td>
+                <td>Alvins@1</td>
+                <td>DOB</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="keren">
+    <img src="https://source.unsplash.com/200x200" alt="random image">
+
+    <video src="coba.mp4"controls width="200" height="200"></video>
+    <audio src="coba.mp4" width="200" height="200"controls></audio>
+
+    <iframe src="https://www.realme.com/id/" frameborder="0" width="200" height="200"></iframe>
+    </div>
+</div>
+</main>
+</body>
+</html>
